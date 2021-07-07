@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/typedash/static/css/main.d7951c69.chunk.css",
+    "main.js": "/typedash/static/js/main.7a1e259b.chunk.js",
+    "main.js.map": "/typedash/static/js/main.7a1e259b.chunk.js.map",
+    "runtime-main.js": "/typedash/static/js/runtime-main.80a364c3.js",
+    "runtime-main.js.map": "/typedash/static/js/runtime-main.80a364c3.js.map",
+    "static/js/2.32d645ef.chunk.js": "/typedash/static/js/2.32d645ef.chunk.js",
+    "static/js/2.32d645ef.chunk.js.map": "/typedash/static/js/2.32d645ef.chunk.js.map",
+    "static/js/3.d1002df3.chunk.js": "/typedash/static/js/3.d1002df3.chunk.js",
+    "static/js/3.d1002df3.chunk.js.map": "/typedash/static/js/3.d1002df3.chunk.js.map",
+    "index.html": "/typedash/index.html",
+    "static/css/main.d7951c69.chunk.css.map": "/typedash/static/css/main.d7951c69.chunk.css.map",
+    "static/js/2.32d645ef.chunk.js.LICENSE.txt": "/typedash/static/js/2.32d645ef.chunk.js.LICENSE.txt",
+    "static/media/flash.96e141d3.png": "/typedash/static/media/flash.96e141d3.png",
+    "static/media/logo.904ac8fd.png": "/typedash/static/media/logo.904ac8fd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80a364c3.js",
+    "static/js/2.32d645ef.chunk.js",
+    "static/css/main.d7951c69.chunk.css",
+    "static/js/main.7a1e259b.chunk.js"
+  ]
+}
