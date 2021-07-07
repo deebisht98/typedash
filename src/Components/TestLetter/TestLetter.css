@@ -1,0 +1,12 @@
+.test-letter {
+    font-size: 2.2rem;
+}
+.test-letter-correct {
+    color: #558b2f;
+}
+.test-letter-incorrect {
+    color: #bf360c;
+}
+.test-letter-notAttempted {
+    color: #93731a;
+}

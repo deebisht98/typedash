@@ -1,0 +1,18 @@
+.footer-container {
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.12),
+        0 0.1rem 0.2rem rgba(0, 0, 0, 0.26);
+    z-index: 99;
+    background-color: #1d2020;
+    text-align: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+.footer-container p {
+    margin: 1rem;
+}
+
+.footer-container a {
+    text-decoration: underline;
+    color: #e7e6e7;
+}

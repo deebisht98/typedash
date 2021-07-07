@@ -1,0 +1,79 @@
+.typing-challenge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.judges {
+    display: flex;
+    width: 100%;
+    height: 14%;
+}
+.card {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    border: 0;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.12),
+        0 0.1rem 0.2rem rgba(0, 0, 0, 0.26);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.card p {
+    margin-bottom: 0;
+}
+.card h1 {
+    margin: 0;
+}
+.card:hover,
+.field:hover {
+    box-shadow: 0 1.4rem 2.8rem rgba(0, 0, 0, 0.12),
+        0 1rem 1rem rgba(0, 0, 0, 0.26);
+}
+.timer {
+    margin-bottom: 0;
+}
+.ins {
+    color: #dd5044;
+    margin-top: 1rem;
+    letter-spacing: 0.3rem;
+    padding: 0 2rem;
+}
+.challenge-area {
+    display: flex;
+    flex: 1;
+    margin-bottom: 4rem;
+    width: 85%;
+    margin-top: 1rem;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.12),
+        0 0.1rem 0.2rem rgba(0, 0, 0, 0.26);
+}
+@media (max-width: 76.8rem) {
+    .challenge-area {
+        flex-direction: column;
+        align-items: center;
+    }
+    .field {
+        width: 100%;
+    }
+}
+.para {
+    background-color: #cacaca;
+}
+.field {
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.12),
+        0 0.1rem 0.2rem rgba(0, 0, 0, 0.26);
+    flex: 1;
+    border: 0;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.text-area {
+    font-size: 2rem;
+    outline: none;
+    resize: none;
+    font-family: 'P';
+}

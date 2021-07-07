@@ -1,0 +1,50 @@
+.test-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.test-data {
+    font-weight: 600;
+}
+.test-heading {
+    margin: 0;
+    text-decoration: underline;
+}
+.buttons {
+    display: flex;
+}
+.btn {
+    margin: 1rem 1rem;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.12),
+        0 0.1rem 0.2rem rgba(0, 0, 0, 0.26);
+    border-radius: 0.5rem;
+    padding: 0.8rem 1rem;
+    border: 0;
+    cursor: pointer;
+    color: #e7e6e7;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.2s;
+    font-weight: 500;
+}
+.retry {
+    background-color: #3e4248;
+}
+.retry:hover,
+.retry:focus {
+    background-color: #808080;
+}
+.share {
+    background-color: #3b5998;
+}
+.share:hover,
+.share:focus {
+    background-color: #5d7dc4;
+}
+.tweet {
+    background-color: #1da1f2;
+}
+.tweet:hover,
+.tweet:focus {
+    background-color: #8faef3;
+}

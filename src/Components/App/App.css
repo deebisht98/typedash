@@ -1,0 +1,14 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    background-color: #262a2b;
+}

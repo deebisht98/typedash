@@ -1,0 +1,31 @@
+.challenge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rect {
+    background-color: #e7e6e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 90vh;
+    margin: 4rem 0 10rem 0;
+    border-radius: 1rem;
+}
+@media (max-width: 76.8rem) {
+    .rect {
+        height: 100vh;
+    }
+}
+.challenge-heading {
+    color: #e7e6e7;
+    font-family: 'Bangers', cursive;
+    font-size: 5.5rem;
+    letter-spacing: 0.3rem;
+}
+@media (max-width: 76.8rem) {
+    .challenge-heading {
+        font-size: 4rem;
+    }
+}
